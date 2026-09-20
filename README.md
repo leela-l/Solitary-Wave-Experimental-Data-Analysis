@@ -3,14 +3,14 @@
 Python scripts for analysing experimental data on solitary waves, focusing on how wave speed and amplitude behave with and without an obstacle in the wave's path. A linear regression is fitted to the data, normalised residuals are computed to assess fit quality, and distributions of measured vs expected wave speed ratios are plotted.
 
 ## Script Descriptions
-`Histogram.py`: Compares the ratio of measured to expected wave speed (`c_measured / c_expected`) for two setups (no block vs. 3 blocks), and returns the skewness of each distribution.
-`1 block.py`: Fits linear regressions of amplitude "during" and "after" passing a single block, against the "before" amplitude. Includes error bars, normalised residual plots, and zoomed inset views of selected data points.
-`1 block before.py`: Analyses amplitude data before the wave passes a single block.
-`1 block during.py`: Analyses amplitude data while the wave passes a single block.
-`1 block after.py`: Analyses amplitude data after the wave passes a single block.
-`No block graph c vs h.py`: Plots wave speed (*c*) vs. wave height (*η*) with no block present, fitting a linear regression and normalised residuals.
-`3 blocks graph c vs h.py`: Same analysis as above, but for the 3-block configuration.
-`both c vs h.py`: Plots *c* vs. *η* for two datasets (e.g. different block configurations) on the same figure for comparison.
+`Histogram.py`: Compares the ratio of measured to expected wave speed (`c_measured / c_expected`) for two setups (no block vs. 3 blocks), and returns the skewness of each distribution.  
+`1 block.py`: Fits linear regressions of amplitude "during" and "after" passing a single block, against the "before" amplitude. Includes error bars, normalised residual plots, and zoomed inset views of selected data points.  
+`1 block before.py`: Analyses amplitude data before the wave passes a single block.  
+`1 block during.py`: Analyses amplitude data while the wave passes a single block.  
+`1 block after.py`: Analyses amplitude data after the wave passes a single block.  
+`No block graph c vs h.py`: Plots wave speed (*c*) vs. wave height (*η*) with no block present, fitting a linear regression and normalised residuals.  
+`3 blocks graph c vs h.py`: Same analysis as above, but for the 3-block configuration.  
+`both c vs h.py`: Plots *c* vs. *η* for two datasets (e.g. different block configurations) on the same figure for comparison.  
 
 ## Method
 
